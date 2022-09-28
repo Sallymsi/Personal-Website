@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: auto;
-    background-image: url("./image6.png");
+    background-image: url("/assets/image6.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -54,6 +54,7 @@ section {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    filter: brightness(1.2);
 }
 
 .reveal-L {
@@ -95,6 +96,18 @@ span {
     border: 2px solid black;
     margin: 10px;
 
+}
+
+.span_about {
+    background-color: #d2a7ff;
+}
+
+.span_skills {
+    background-color: #bea8ff;
+}
+
+.span_contact {
+    background-color: #9488ff;
 }
 
 a {
@@ -182,7 +195,7 @@ span:hover {
     content: " ";
     position: absolute;
     height: 25px;
-    width: 90%;
+    width: 100%;
     background: rgb(159, 121, 199);
     z-index: -1;
     opacity: 0.6;
@@ -192,7 +205,7 @@ span:hover {
     content: " ";
     position: absolute;
     height: 25px;
-    width: 80%;
+    width: 90%;
     background: rgb(212, 172, 212);
     z-index: -1;
     opacity: 0.6;
@@ -204,6 +217,16 @@ span:hover {
     height: 25px;
     width: 80%;
     background: rgb(180, 160, 180);
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.bar_skill:nth-child(5):before {
+    content: " ";
+    position: absolute;
+    height: 25px;
+    width: 80%;
+    background: rgb(181, 136, 158);
     z-index: -1;
     opacity: 0.6;
 }
