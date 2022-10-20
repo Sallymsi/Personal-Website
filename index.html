@@ -6,77 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/def9c38ef3.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Sally Chaput</title>
 </head>
 
 <body>
     <header>
-        <div class="case_bulle">
-            <a href="#block_about"><span class="span_about">À propos</span></a>
-            <a href="#block_skills"><span class="span_skills">Compétences</span></a>
-            <a href="#block_contact"><span class="span_contact">Contact</span></a>
+        <div class="case_title">
+            <img src="./assets/Group.svg" />
+            <p>SALLY CHAPUT</p>
         </div>
+        <nav class="case_nav">
+            <ul>
+                <a href="#">
+                    <li class="nav_choice">Home</li>
+                </a>
+                <a href="profil.html">
+                    <li class="nav_choice">Profil</li>
+                </a>
+                <a href="#">
+                    <li class="nav_choice">Contact</li>
+                </a>
+            </ul>
+        </nav>
     </header>
-    <section id="block_header">
-        <img src="./assets/mengo.svg" class="reveal-L" />
-        <div class="reveal-R">
-            <h1>Bonjour,<br>Je m'appelle Sally,<br>& je suis développeur web !</h1>
+    <section id="block_home">
+        <img src="./assets/Home_art 1.svg" class="reveal-R" />
+        <div class="block_text">
+            <div class="case_text reveal-L">
+                <p>Bonjour,</p>
+                <h1>Je m'appelle Sally,<br>& je suis développeur web !</h1>
+                <p>Bienvenue sur mon site web</p>
+            </div>
+            <button class="button_contact reveal-L">Une question ?</i></button>
+        </div>
+    </section>
+    <aside class="reveal-L">
+        <a href="https://github.com/Sallymsi"><img src="./assets/Git.svg" /></a>
+        <a href="https://www.linkedin.com/in/sally-chaput-t1998"><img src="./assets/Linkedin.svg" /></a>
+    </aside>
 
-            <button class="button_contact">Contactez-moi !</button>
-        </div>
-    </section>
-    <section id="block_about">
-        <div class="case_about reveal-L">
-            <h2>SALLY</h2>
-            <h3>J'ai 24 ans et je suis passionné par le développement web depuis mes 16 ans,<br> c'est
-                pour
-                cela que je suis
-                devenu développeur web Frontend il y a 2 ans.<br><br>
-                Mon quotidien est de créer ou d'améliorer des sites web ou encore d'élaborer de nouvelles<br>
-                fonctionnalités
-                afin de les rendre plus accessible et plus abordable pour les utilisateurs.<br><br>
-                Mes passions sont principalement les sports extrêmes mais aussi la cuisine (parfois extrême..).
-            </h3>
-        </div>
-        <div class="pic_profil reveal-R"><img src="./assets/moi.jpg" /></div>
-    </section>
-    <section id="block_skills">
-        <div class="skills_text reveal-L">
-            <h2>Mes Compétences</h2>
-            <h3>Avoir appris le code en autodidacte m'a bien aidé mais quelques années après j'ai passé mon diplôme de
-                niveau 5<br>
-                pour
-                devenir officiellement développeur web et pouvoir me spécialiser en Frontend.<br><br>
-                Je peux travailler en partant de zéro pour fournir un site web complet mais je peux aussi travailler sur
-                un site existant.<br>
-                Mes languages de prédilections sont JavaScript et plus particulièrement ReactJS mais je suis très
-                polyvalent<br>je saurais donc me mettre à jour afin d'être capable de travailler sur n'importe quelle
-                projet si besoin.
-            </h3>
-        </div>
-        <div class="case_skills reveal-R">
-            <div class="bar_skill bar_1">
-                <h4>HTML</h4>
-            </div>
-            <div class="bar_skill bar_2">
-                <h4>CSS/SASS</h4>
-            </div>
-            <div class="bar_skill bar_3">
-                <h4>JavaScript</h4>
-            </div>
-            <div class="bar_skill bar_4">
-                <h4>React.js</h4>
-            </div>
-            <div class="bar_skill bar_5">
-                <h4>Base de donnée (MySql, mango..)</h4>
-            </div>
-        </div>
-    </section>
     <script src="./js/app.js" type="module" defer></script>
 </body>
 

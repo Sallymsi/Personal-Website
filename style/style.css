@@ -1,17 +1,17 @@
+/* Variable : */
+
 body {
     padding: 0;
     margin: auto;
-    background-image: url("/assets/image6.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    max-width: 100vw;
+    width: 75%;
 }
 
 h1 {
     text-align: left;
     font-family: 'Inter Tight', sans-serif;
     font-size: 50px;
+    margin: 15px 0px;
+    color: #445964;
 }
 
 h2 {
@@ -24,6 +24,8 @@ h3 {
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    margin: 0px;
+    color: #445964;
 }
 
 h4 {
@@ -33,18 +35,91 @@ h4 {
     margin: 0;
 }
 
-section {
+a {
+    text-decoration: none;
+    color: #445964;
+}
+
+/* Home */
+
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.case_title {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+.case_title>p {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 42px;
+    color: #445964;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.case_nav {
+    display: flex;
+}
+
+.case_nav>ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.case_nav>ul>a>li {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #445964;
+    padding: 0px 30px;
+}
+
+#block_home {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.block_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.case_text>p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    color: #445964;
+    margin: 0px;
+}
+
+aside {
+    margin-top: 40px;
+}
+
+aside>a>img {
+    padding-right: 30px;
 }
 
 .pic_profil {
     width: 450px;
     height: 450px;
     border-radius: 75px;
-    border: 3px solid black;
+    border: 3px solid #445964;
     overflow: hidden;
     margin: 40px;
 }
@@ -56,6 +131,172 @@ section {
     object-position: center;
     filter: brightness(1.2);
 }
+
+.button_contact {
+    cursor: pointer;
+    position: relative;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    background-color: #445964;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+/* Profil */
+
+#block_profil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.case_profil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.profil_img {
+    width: 20%;
+}
+
+.profil_text {
+    width: 50%;
+}
+
+.profil_text>p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #445964;
+}
+
+.profil_text>h2 {
+    color: #445964;
+}
+
+.block_skills {
+    margin-top: 50px;
+}
+
+.block_skills>h2 {
+    text-align: center;
+    margin-top: 0px;
+    color: #445964;
+}
+
+.case_skill {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.case_skill {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill_logo {
+    text-align: center;
+}
+
+.skill_logo>img {
+    height: 50px;
+    width: auto;
+}
+
+.skill>div>p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    color: #445964;
+    text-align: center;
+}
+
+/* Hexagone */
+
+.hexagone {
+    position: relative;
+    width: 250px;
+    margin: 0px auto;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.hexagone:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    content: "";
+    display: block;
+    margin-top: 28.86751%;
+    padding-bottom: 86.602%;
+}
+
+.hexagone .hexagonemain {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 115.47005%;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    z-index: 1;
+}
+
+.hexagone .hexagonemainbefore {
+    content: "";
+    position: absolute;
+    visibility: visible;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #cccccc;
+    -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+}
+
+.hexagone .hexagonecontent {
+    width: 100%;
+    display: block;
+    position: absolute;
+    visibility: visible;
+    bottom: 25%;
+    top: 25%;
+    left: 0;
+    z-index: 3;
+}
+
+.hexagonemainbefore>img {
+    left: 100%;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+    -ms-transform: rotate3d(0, 0, 0, 0deg);
+    transform: rotate3d(0, 0, 0, 0deg);
+}
+
+/* Reveal */
 
 .reveal-L {
     opacity: 0;
@@ -73,163 +314,7 @@ section {
     transition: 2s;
 }
 
-.case_bulle {
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    display: flex;
-    justify-content: space-around;
-    z-index: 1;
-}
-
-span {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    background-color: transparent;
-    width: 140px;
-    height: 140px;
-    border-radius: 70px;
-    border: 2px solid black;
-    margin: 10px;
-
-}
-
-.span_about {
-    background-color: #d2a7ff;
-}
-
-.span_skills {
-    background-color: #bea8ff;
-}
-
-.span_contact {
-    background-color: #9488ff;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-span:hover {
-    transform: translateY(50px);
-    transition: transform 1000ms;
-}
-
-.button_contact {
-    cursor: pointer;
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    background-color: transparent;
-    border-radius: 10px;
-    border: 2px solid black;
-}
-
-.button_contact:hover {
-    transform: translateX(50px);
-    transition: transform 750ms;
-}
-
-.button_contact::before {
-    content: " ";
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 24%, rgba(19, 139, 177, 1) 71%);
-    border-radius: 10px;
-    z-index: -1;
-    transform-origin: 0% 0%;
-    transform: scaleX(0);
-}
-
-.button_contact:hover::before {
-    animation: fill 1s forwards;
-    transition: cubic-bezier(.82, .08, .57, .78)
-}
-
-.case_about {
-    padding: 40px;
-}
-
-.skills_text {
-    padding: 40px;
-}
-
-.case_skills {
-    padding: 40px;
-}
-
-.bar_skill {
-    position: relative;
-    height: 25px;
-    width: 500px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: transparent;
-    margin-bottom: 15px;
-    color: white;
-}
-
-.bar_skill>h4 {
-    padding-left: 5px;
-}
-
-.bar_skill:nth-child(1):before {
-    content: " ";
-    position: absolute;
-    height: 25px;
-    width: 100%;
-    background: rgb(136, 129, 192);
-    z-index: -1;
-    opacity: 0.6;
-}
-
-.bar_skill:nth-child(2):before {
-    content: " ";
-    position: absolute;
-    height: 25px;
-    width: 100%;
-    background: rgb(159, 121, 199);
-    z-index: -1;
-    opacity: 0.6;
-}
-
-.bar_skill:nth-child(3):before {
-    content: " ";
-    position: absolute;
-    height: 25px;
-    width: 90%;
-    background: rgb(212, 172, 212);
-    z-index: -1;
-    opacity: 0.6;
-}
-
-.bar_skill:nth-child(4):before {
-    content: " ";
-    position: absolute;
-    height: 25px;
-    width: 80%;
-    background: rgb(180, 160, 180);
-    z-index: -1;
-    opacity: 0.6;
-}
-
-.bar_skill:nth-child(5):before {
-    content: " ";
-    position: absolute;
-    height: 25px;
-    width: 80%;
-    background: rgb(181, 136, 158);
-    z-index: -1;
-    opacity: 0.6;
-}
+/* Animations */
 
 @keyframes fill {
     0% {
