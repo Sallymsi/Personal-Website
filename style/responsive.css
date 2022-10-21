@@ -1,5 +1,17 @@
 @media screen and (min-width: 1925px) {
-    body {
+    .block_header {
+        width: 60%;
+    }
+
+    #block_home {
+        width: 60%;
+    }
+
+    .icon_reseau {
+        width: 60%;
+    }
+
+    #block_profil {
         width: 60%;
     }
 }

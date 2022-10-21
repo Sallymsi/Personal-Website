@@ -90,7 +90,7 @@ a {
     align-items: center;
 }
 
-.case_nav>ul>a>li {
+.case_nav>ul>li {
     display: inline-block;
     font-family: 'Poppins';
     font-style: normal;
@@ -146,7 +146,6 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: brightness(1.2);
 }
 
 .button_contact {
