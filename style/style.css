@@ -1,9 +1,8 @@
 /* Variable : */
 
 body {
+    margin: 0px;
     padding: 0;
-    margin: auto;
-    width: 75%;
 }
 
 h1 {
@@ -42,10 +41,26 @@ a {
 
 /* Home */
 
-header {
+.announcement_bar {
+    background-color: #445964;
+    margin: 0px;
+    width: 100%;
+}
+
+.announcement_bar>p {
+    text-align: center;
+    color: white;
+    font-family: 'Inter Tight';
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.block_header {
     display: flex;
     justify-content: space-between;
     height: 120px;
+    width: 75%;
+    margin: 0px auto;
 }
 
 .case_title {
@@ -90,7 +105,8 @@ header {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-top: 100px;
+    margin: 80px auto 0px;
+    width: 75%;
 }
 
 .block_text {
@@ -107,11 +123,12 @@ header {
     margin: 0px;
 }
 
-aside {
-    margin-top: 40px;
+.icon_reseau {
+    margin: 40px auto 0px;
+    width: 75%;
 }
 
-aside>a>img {
+.icon_reseau>a>img {
     padding-right: 30px;
 }
 
@@ -150,7 +167,8 @@ aside>a>img {
 #block_profil {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin: 10px auto 0px;
+    width: 75%;
 }
 
 .case_profil {
