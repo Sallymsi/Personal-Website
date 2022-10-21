@@ -15,3 +15,90 @@
         width: 60%;
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .block_header {
+        width: 90%;
+    }
+
+    #block_home {
+        width: 90%;
+    }
+
+    .icon_reseau {
+        width: 90%;
+    }
+
+    #block_profil {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    #block_home {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 30px auto 0px;
+    }
+
+    .block_text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .case_text>h1 {
+        text-align: center;
+    }
+
+    .case_text>p:nth-child(3) {
+        visibility: hidden;
+    }
+
+    .button_contact {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block_header {
+        width: 90%;
+        height: 80px;
+    }
+
+    #block_home {
+        width: 95%;
+    }
+
+    .case_text>h1 {
+        font-size: 30px;
+    }
+
+    .index_img {
+        text-align: center;
+    }
+
+    .index_img>img {
+        width: 90%;
+    }
+
+    .case_nav {
+        display: none;
+    }
+
+    .menu_burger {
+        display: block;
+    }
+
+    .icon_reseau {
+        text-align: center;
+        width: 95%;
+    }
+
+    #block_profil {
+        width: 95%;
+    }
+
+    .button_contact {
+        width: auto;
+    }
+}

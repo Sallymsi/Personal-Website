@@ -3,10 +3,10 @@
 body {
     margin: 0px;
     padding: 0;
+    height: 100vh;
 }
 
 h1 {
-    text-align: left;
     font-family: 'Inter Tight', sans-serif;
     font-size: 50px;
     margin: 15px 0px;
@@ -58,6 +58,7 @@ a {
 .block_header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 120px;
     width: 75%;
     margin: 0px auto;
@@ -78,6 +79,11 @@ a {
     color: #445964;
     padding-left: 10px;
     margin: 0px;
+}
+
+.menu_burger {
+    display: none;
+    font-size: 35px;
 }
 
 .case_nav {
@@ -109,6 +115,15 @@ a {
     width: 75%;
 }
 
+.index_img {
+    width: auto;
+}
+
+.index_img>img {
+    object-fit: cover;
+    object-position: center;
+}
+
 .block_text {
     display: flex;
     flex-direction: column;
@@ -121,6 +136,10 @@ a {
     font-weight: 700;
     color: #445964;
     margin: 0px;
+}
+
+.case_text>h1 {
+    text-align: left;
 }
 
 .icon_reseau {
@@ -150,7 +169,6 @@ a {
 
 .button_contact {
     cursor: pointer;
-    position: relative;
     font-family: 'Inter Tight', sans-serif;
     font-size: 20px;
     background-color: #445964;
