@@ -67,7 +67,7 @@ a {
 
 .block_header>button {
     border: none;
-    background-color: transparent;
+    background-color: white;
 }
 
 .case_title {
@@ -92,6 +92,10 @@ a {
     font-size: 35px;
     color: #445964;
 }
+
+/* .case_menu:active {
+    visibility: hidden;
+} */
 
 .case_menu:active>#menu_burger {
     animation: invisible 1s forwards;
