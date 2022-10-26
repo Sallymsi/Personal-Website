@@ -57,6 +57,11 @@
     .button_contact {
         margin: auto;
     }
+
+    .icon_reseau {
+        text-align: center;
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -89,16 +94,17 @@
         visibility: visible;
     }
 
-    .icon_reseau {
-        text-align: center;
-        width: 95%;
-    }
-
     #block_profil {
         width: 95%;
     }
 
     .button_contact {
         width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .case_title>p {
+        font-size: 25px;
     }
 }

@@ -56,6 +56,7 @@ a {
 }
 
 .block_header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,6 +85,37 @@ a {
 #menu_burger {
     visibility: hidden;
     font-size: 35px;
+    color: #445964;
+}
+
+.case_menu:hover>#menu_burger {
+    animation: invisible 1s forwards;
+}
+
+.case_menu:hover>.menu-ovale {
+    animation: visible 1s forwards;
+    animation-delay: 0.5s;
+}
+
+.menu-ovale {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 40px;
+    height: 135px;
+    border-radius: 10px;
+    border: 2px solid #445964;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.menu-ovale>a>i {
+    color: #445964;
+    font-size: 25px;
 }
 
 .case_nav {
@@ -121,6 +153,7 @@ a {
 }
 
 .index_img>img {
+    width: auto;
     object-fit: cover;
     object-position: center;
 }
@@ -352,12 +385,22 @@ a {
 
 /* Animations */
 
-@keyframes fill {
+@keyframes invisible {
     0% {
-        transform: scaleX(0);
+        opacity: 1;
     }
 
     100% {
-        transform: scaleX(1);
+        opacity: 0;
+    }
+}
+
+@keyframes visible {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
     }
 }
