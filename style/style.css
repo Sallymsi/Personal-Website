@@ -235,10 +235,6 @@ a {
 
 }
 
-.profil_img {
-    width: 20%;
-}
-
 .profil_text {
     width: 50%;
 }
@@ -254,6 +250,11 @@ a {
     color: #445964;
 }
 
+.block_flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .block_skills {
     margin-top: 50px;
 }
@@ -265,17 +266,10 @@ a {
 }
 
 .case_skill {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     margin: 0px auto;
-}
-
-.case_skill {
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    margin: 50px auto;
 }
 
 .skill {
