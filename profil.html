@@ -8,6 +8,7 @@
     <meta name="description"
         content="Site web personnel de Sally Chaput, développeur web spécialisé dans l'Ecommerce et plus particulièrement via Shopify.">
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Poppins:wght@300&display=swap"
@@ -27,7 +28,14 @@
                 <img src="./assets/Group.svg" alt="logo" width="50" height="50" />
                 <p>SALLY CHAPUT</p>
             </div>
-            <i class="fa-solid fa-bars" id="menu_burger"></i>
+            <button type="button" id="menuBurger" class="case_menu">
+                <i class="fa-solid fa-bars" id="menu_burger"></i>
+                <div class="menu-ovale">
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <a href="profil.html"><i class="fa-solid fa-user"></i></a>
+                    <a href="profil.html"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </button>
             <nav class="case_nav">
                 <ul>
                     <li class="nav_choice"><a href="index.html">Home</a></li>
@@ -146,7 +154,7 @@
             </div>
         </div>
     </section>
-    <script src="./js/app.js" type="module" defer></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>
