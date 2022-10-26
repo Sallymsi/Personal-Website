@@ -93,15 +93,11 @@ a {
     color: #445964;
 }
 
-/* .case_menu:active {
-    visibility: hidden;
-} */
-
-.case_menu:active>#menu_burger {
+.menu_burger_animation {
     animation: invisible 1s forwards;
 }
 
-.case_menu:active>.menu-ovale {
+.menu-ovale-animation {
     animation: visible 1s forwards;
     animation-delay: 0.5s;
 }

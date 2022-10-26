@@ -22,3 +22,11 @@ document.querySelectorAll('.reveal-L, .reveal-R').forEach(function (r) {
 })
 
 
+menuBurger.onclick = () => {
+    var menu = document.querySelector('#menu_burger');
+    var bulle = document.querySelector('.menu-ovale');
+    menu.classList.add("menu_burger_animation");
+    bulle.classList.add("menu-ovale-animation");
+}
+
+
