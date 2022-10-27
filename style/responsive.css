@@ -14,6 +14,10 @@
     #block_profil {
         width: 60%;
     }
+
+    .block_service {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -31,6 +35,18 @@
 
     #block_profil {
         width: 90%;
+    }
+
+    .block_service {
+        width: 90%;
+    }
+
+    .first_offer {
+        margin-top: 60px;
+    }
+
+    .second_offer {
+        margin-top: 60px;
     }
 }
 
@@ -69,6 +85,37 @@
 
     .case_skill {
         width: 100%;
+    }
+
+    .service_title>h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .first_offer {
+        flex-direction: column-reverse;
+    }
+
+    .first_offer>img {
+        width: 60%;
+        padding-bottom: 30px;
+    }
+
+    .first_offer>.service_text>h3 {
+        font-size: 20px;
+    }
+
+    .second_offer {
+        flex-direction: column;
+    }
+
+    .second_offer>img {
+        width: 60%;
+        padding-bottom: 30px;
+    }
+
+    .second_offer>.service_text>h3 {
+        font-size: 20px;
     }
 }
 
@@ -141,6 +188,22 @@
 
     .skill {
         margin-bottom: 30px;
+    }
+
+    .first_offer>.service_text>h3 {
+        font-size: 20px;
+    }
+
+    .first_offer>.service_text>p {
+        font-size: 15px;
+    }
+
+    .second_offer>.service_text>h3 {
+        font-size: 20px;
+    }
+
+    .second_offer>.service_text>p {
+        font-size: 15px;
     }
 }
 
