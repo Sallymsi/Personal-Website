@@ -105,7 +105,7 @@ a {
     right: 0px;
     top: 20px;
     width: 40px;
-    height: 135px;
+    height: 175px;
     border-radius: 10px;
     border: 2px solid #445964;
     display: flex;
@@ -193,7 +193,8 @@ a {
 }
 
 .icon_reseau>a>img {
-    padding-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .pic_profil {
