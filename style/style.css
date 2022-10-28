@@ -3,7 +3,6 @@
 body {
     margin: 0px;
     padding: 0;
-    height: 100vh;
 }
 
 h1 {
@@ -38,6 +37,52 @@ a {
     color: #445964;
 }
 
+/* Background */
+
+path {
+    transform-origin: 50% 0%;
+}
+
+.background--custom {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+@keyframes path0 {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes path1 {
+    0% {
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        transform: rotate(50deg);
+    }
+}
+
+@keyframes path2 {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
 /* Home */
 
 .announcement_bar {
@@ -66,7 +111,7 @@ a {
 
 .block_header>button {
     border: none;
-    background-color: white;
+    background-color: transparent;
 }
 
 .case_title {
@@ -156,8 +201,8 @@ a {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 60px auto 0px;
-    width: 75%;
+    margin: 60px auto 80px;
+    width: 65%;
 }
 
 .index_img {
@@ -189,8 +234,10 @@ a {
 }
 
 .icon_reseau {
-    margin: 40px auto 0px;
-    width: 75%;
+    position: retative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .icon_reseau>a>img {

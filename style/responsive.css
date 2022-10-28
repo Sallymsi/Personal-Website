@@ -1,23 +1,9 @@
-@media screen and (min-width: 1925px) {
-    .block_header {
-        width: 60%;
-    }
+@media screen and (min-height: 1200px) {
 
     #block_home {
-        width: 60%;
+        margin: 100px auto 280px;
     }
 
-    .icon_reseau {
-        width: 60%;
-    }
-
-    #block_profil {
-        width: 60%;
-    }
-
-    .block_service {
-        width: 60%;
-    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -26,10 +12,6 @@
     }
 
     #block_home {
-        width: 90%;
-    }
-
-    .icon_reseau {
         width: 90%;
     }
 
@@ -54,7 +36,7 @@
     #block_home {
         flex-direction: column-reverse;
         align-items: center;
-        margin: 30px auto 0px;
+        margin: 30px auto 60px;
     }
 
     .block_text {
@@ -72,11 +54,6 @@
 
     .button_contact {
         margin: auto;
-    }
-
-    .icon_reseau {
-        text-align: center;
-        width: 95%;
     }
 
     .block_header {
