@@ -30,6 +30,10 @@
     .second_offer {
         margin-top: 60px;
     }
+
+    .block_panel {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1190px) {
@@ -97,6 +101,14 @@
 
     .second_offer>.service_text>h3 {
         font-size: 20px;
+    }
+
+    .block_contact {
+        width: 53%;
+    }
+
+    .block_contact>h2 {
+        font-size: 30px;
     }
 }
 
@@ -186,6 +198,20 @@
     .second_offer>.service_text>p {
         font-size: 15px;
     }
+
+    .block_panel {
+        flex-direction: column;
+        margin: 40px auto 20px;
+    }
+
+    .block_panel>img {
+        width: 65%;
+    }
+
+    .block_contact {
+        width: 90%;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -204,5 +230,21 @@
 
     .skill {
         margin-bottom: 60px;
+    }
+
+    .block_panel {
+        margin: 20px auto 20px;
+    }
+
+    .block_panel>img {
+        width: 75%;
+    }
+
+    .block_contact {
+        width: 100%;
+    }
+
+    .block_contact>h2 {
+        font-size: 28px;
     }
 }
