@@ -4,6 +4,10 @@
         margin: 100px auto 240px;
     }
 
+    .block_panel {
+        margin: 140px auto 300px;
+    }
+
 }
 
 @media screen and (max-width: 1500px) {
@@ -201,7 +205,7 @@
 
     .block_panel {
         flex-direction: column;
-        margin: 40px auto 20px;
+        margin: 20px auto 40px;
     }
 
     .block_panel>img {
@@ -233,7 +237,7 @@
     }
 
     .block_panel {
-        margin: 20px auto 20px;
+        margin: 20px auto 40px;
     }
 
     .block_panel>img {
