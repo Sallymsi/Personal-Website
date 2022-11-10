@@ -230,7 +230,6 @@ path {
 }
 
 .icon_reseau {
-    position: retative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,6 +288,7 @@ path {
     font-size: 20px;
     text-align: justify;
     color: #445964;
+    line-height: 1.5;
 }
 
 .profil_text>h2 {
@@ -314,7 +314,7 @@ path {
     width: 80%;
     display: flex;
     justify-content: space-around;
-    margin: 0px auto;
+    margin: 25px auto;
 }
 
 .skill {
@@ -637,6 +637,11 @@ path {
 .reveal-R {
     opacity: 0;
     transform: translateX(100px);
+}
+
+.reveal-B {
+    opacity: 0;
+    transform: translateY(50px);
 }
 
 .reveal-visible {
