@@ -86,13 +86,15 @@ path {
 /* Home */
 
 .announcement_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #445964;
     margin: 0px;
     width: 100%;
 }
 
 .announcement_bar>p {
-    text-align: center;
     color: white;
     font-family: 'Inter Tight';
     margin: 0px;
