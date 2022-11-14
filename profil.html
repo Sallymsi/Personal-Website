@@ -31,23 +31,22 @@
                 <img src="./assets/Group.svg" alt="logo" width="50" height="50">
                 <p>SALLY CHAPUT</p>
             </div>
-            <button type="button" id="menuBurger" class="case_menu" aria-label="menu-burger">
-                <i class="fa-solid fa-bars" id="menu_burger"></i>
-                <div class="menu-ovale">
-                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
-                    <a href="profil.html"><i class="fa-solid fa-user"></i></a>
-                    <a href="service.html"><i class="fa-solid fa-handshake"></i></a>
-                    <a href="contact.html"><i class="fa-solid fa-phone"></i></a>
-                </div>
-            </button>
-            <nav class="case_nav">
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="profil.html">Profil</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="profil.html"><i class="fa-solid fa-user"></i> Profil</a></li>
+                    <li><a href="service.html"><i class="fa-solid fa-handshake"></i> Services</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
                 </ul>
-            </nav>
+            </div>
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
         </div>
     </header>
     <section id="block_profil">

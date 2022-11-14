@@ -44,7 +44,7 @@
     #block_home {
         flex-direction: column-reverse;
         align-items: center;
-        margin: 30px auto 60px;
+        margin: 30px auto 40px;
     }
 
     .block_text {

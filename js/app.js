@@ -21,13 +21,23 @@ document.querySelectorAll('.reveal-L, .reveal-R, .reveal-B').forEach(function (r
     observer.observe(r)
 })
 
+var sidenav = document.getElementById("mySidenav");
+var openBtn = document.getElementById("openBtn");
+var closeBtn = document.getElementById("closeBtn");
 
-menuBurger.onclick = () => {
-    var menu = document.querySelector('#menu_burger');
-    var bulle = document.querySelector('.menu-ovale');
-    menu.classList.add("menu_burger_animation");
-    bulle.classList.add("menu-ovale-animation");
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    sidenav.classList.add("active");
 }
 
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    sidenav.classList.remove("active");
+}
 
-
+buttonContact.onclick = () => {
+    window.location.href = `contact.html`;
+}
