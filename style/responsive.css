@@ -63,7 +63,7 @@
 
     /* Sidenav menu links */
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: auto;
         text-decoration: none;
         font-size: 25px;
         color: #445964;
@@ -79,6 +79,14 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
+    }
+
+    .sidenav>ul>li {
+        padding-bottom: 20px;
+    }
+
+    .sidenav>ul>li>a>i {
+        display: inline-block;
     }
 
     /* Active class */
