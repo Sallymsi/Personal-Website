@@ -38,6 +38,7 @@ function closeNav() {
     sidenav.classList.remove("active");
 }
 
+/* Set button of home */
 buttonContact.onclick = () => {
     window.location.href = `contact.html`;
 }
