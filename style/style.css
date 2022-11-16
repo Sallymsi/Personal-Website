@@ -131,6 +131,7 @@ path {
     color: #445964;
     padding-left: 10px;
     margin: 0px;
+    letter-spacing: 3px;
 }
 
 .balance>i {
@@ -152,7 +153,11 @@ path {
     list-style-type: none;
 }
 
-.sidenav>ul>li {
+.visible_mentions {
+    display: none;
+}
+
+.sidenav>ul>li:not(.visible_mentions) {
     display: inline-block;
     margin: auto 40px;
     font-family: 'Inter Tight', sans-serif;

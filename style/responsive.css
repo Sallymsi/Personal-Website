@@ -213,6 +213,14 @@
         flex-direction: column;
     }
 
+    .visible_mentions {
+        display: inline-block;
+        margin: auto 40px;
+        font-family: 'Inter Tight', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
     .case_block {
         margin-bottom: 50px;
     }
@@ -236,6 +244,14 @@
     .ruban::after {
         display: none;
     }
+
+    .balance {
+        display: none;
+    }
+
+    .icon_reseau {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -246,6 +262,10 @@
 
     #block_home {
         width: 95%;
+    }
+
+    .case_title>p {
+        display: none;
     }
 
     .case_text>h1 {
