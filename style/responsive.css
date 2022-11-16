@@ -43,6 +43,10 @@
         justify-content: space-between;
     }
 
+    .ruban::after {
+        top: 40px;
+    }
+
     .mention_case h3 {
         font-size: 22px;
     }

@@ -17,7 +17,7 @@ const handleIntersect = function (entries, observer) {
 
 const observer = new IntersectionObserver(handleIntersect, options);
 
-document.querySelectorAll('.reveal-L, .reveal-R, .reveal-B').forEach(function (r) {
+document.querySelectorAll('.reveal-L, .reveal-R, .reveal-B, .reveal-T').forEach(function (r) {
     observer.observe(r)
 })
 

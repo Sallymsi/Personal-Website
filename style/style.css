@@ -540,7 +540,7 @@ path {
 
 .block_mentions>h2 {
     text-align: center;
-    margin: 20px auto 50px;
+    margin: 20px auto 70px;
     color: #445964;
 }
 
@@ -663,6 +663,11 @@ path {
 .reveal-R {
     opacity: 0;
     transform: translateX(100px);
+}
+
+.reveal-T {
+    opacity: 0;
+    transform: translateY(-50px);
 }
 
 .reveal-B {
