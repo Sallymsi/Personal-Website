@@ -38,6 +38,26 @@
     .block_panel {
         width: 90%;
     }
+
+    .mention_case {
+        justify-content: space-between;
+    }
+
+    .mention_case h3 {
+        font-size: 22px;
+    }
+
+    .mention_case p {
+        font-size: 16px;
+    }
+
+    .conditions>h3 {
+        font-size: 22px;
+    }
+
+    .conditions>p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 1190px) {
@@ -183,6 +203,34 @@
 
     .block_contact>h2 {
         font-size: 30px;
+    }
+
+    .mention_case {
+        flex-direction: column;
+    }
+
+    .case_block {
+        margin-bottom: 50px;
+    }
+
+    .mention_case h3 {
+        font-size: 25px;
+    }
+
+    .mention_case p {
+        font-size: 20px;
+    }
+
+    .conditions>h3 {
+        font-size: 25px;
+    }
+
+    .conditions>p {
+        font-size: 20px;
+    }
+
+    .ruban::after {
+        display: none;
     }
 }
 
