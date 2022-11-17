@@ -11,13 +11,15 @@
         content="Site web personnel de Sally Chaput, développeur web spécialisé dans l'Ecommerce et plus particulièrement via Shopify.">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/def9c38ef3.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-    <title>Sally Chaput - Services</title>
+    <title>Sallydev.fr - Services</title>
 
 </head>
 
@@ -30,7 +32,7 @@
         <div class="block_header">
             <div class="case_title">
                 <img src="./assets/Group.svg" alt="logo" width="50" height="50">
-                <p>SALLY CHAPUT</p>
+                <p>Sallydev</p>
             </div>
             <nav id="mySidenav" class="sidenav">
                 <a id="closeBtn" href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
@@ -54,35 +56,51 @@
         </div>
     </header>
     <section class="block_service">
-        <div class="service_title">
-            <h2>Mes Services</h2>
+        <div class="service_title reveal-T">
+            <h2>À votre Service..</h2>
+            <p>Pour vous accompagner dans vos projets les plus fous !</p>
         </div>
-        <div class="first_offer reveal-L">
-            <div class="service_text">
+        <div class="first_offer">
+            <div class="swiper mySwiper reveal-L">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/vitrine.jpg" alt="illustration produit"></div>
+                    <div class="swiper-slide"><img src="./assets/vitrine2.jpg" alt="illustration produit"></div>
+                    <div class="swiper-slide"><img src="./assets/vitrine3.jpg" alt="illustration produit"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="service_text reveal-R">
                 <h3>Création de site vitrine | landing page</h3>
-                <p><i class="fa-solid fa-arrow-right-long arrow"></i> Permet une meilleur visibilité sur le web</p>
+                <p><i class="fa-solid fa-arrow-right-long arrow"></i> Permet une meilleure visibilité de votre business
+                    sur le web</p>
                 <p><i class="fa-solid fa-arrow-right-long arrow"></i> Mettre en avant vos compétences dans votre domaine
                 </p>
                 <p><i class="fa-solid fa-arrow-right-long arrow"></i> Page de contact personnalisé reliée à votre email
                 </p>
             </div>
-            <img src="./assets/product1.svg" alt="illustration produit">
         </div>
         <hr class="bar">
-        <div class="second_offer reveal-R">
-            <img src="./assets/commerce.svg" alt="illustration E-commerce">
-            <div class="service_text">
-                <h3>Création de site marchand (E-commerce)</h3>
-                <p><i class="fa-solid fa-arrow-right-long arrow"></i> Création ou refonte de votre E-shop</p>
-                <p><i class="fa-solid fa-arrow-right-long arrow"></i> Création de votre image de marque</p>
-                <p><i class="fa-solid fa-arrow-right-long arrow"></i> Facilité de prise en main</p>
-                <p><i class="fa-solid fa-arrow-right-long arrow"></i> E-commerce performant via Shopify</p>
+        <div class="second_offer">
+            <div class="service_text2 reveal-L">
+                <h3>Création de site marchand | E-commerce</h3>
+                <p>Création ou refonte de votre boutique <i class="fa-solid fa-arrow-left-long arrow"></i></p>
+                <p>Création de votre image de marque <i class="fa-solid fa-arrow-left-long arrow"></i></p>
+                <p>Facilité de prise en main <i class="fa-solid fa-arrow-left-long arrow"></i></p>
+                <p>Boutique E-commerce performant via Shopify <i class="fa-solid fa-arrow-left-long arrow"></i></p>
+            </div>
+            <div class="swiper mySwiper reveal-R">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/shop.jpg" alt="illustration produit"></div>
+                    <div class="swiper-slide"><img src="./assets/shop2.jpg" alt="illustration produit"></div>
+                    <div class="swiper-slide"><img src="./assets/shop3.jpg" alt="illustration produit"></div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
 
     </section>
 
-    <svg class="background--custom" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <svg class="background--custom--service" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
         <path fill="#00FFA1" fill-opacity="0.7" d="M-100 -100L200 -100L200 30L-100 30Z"
             style="animation: path0 13.513513513513514s linear infinite alternate;" />
         <path fill="#00FFFF" fill-opacity="0.7" d="M-100 -100L200 -100L200 40L-100 40Z"
@@ -92,6 +110,7 @@
     </svg>
 
     <script src="./js/app.js" type="module"></script>
+    <script src="./js/swiper.js" type="module" defer></script>
 </body>
 
 </html>

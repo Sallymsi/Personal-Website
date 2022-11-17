@@ -1,6 +1,7 @@
 /* Variable : */
 
 body {
+    position: relative;
     margin: 0px;
     padding: 0;
 }
@@ -48,6 +49,16 @@ path {
     position: absolute;
     width: 100vw;
     height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.background--custom--service {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100vw;
+    height: 130vh;
     z-index: -1;
     top: 0;
     left: 0;
@@ -330,8 +341,26 @@ path {
     font-family: 'Inter Tight', sans-serif;
     font-size: 35px;
     color: #445964;
-    margin: 20px auto;
+    margin: 40px auto 20px;
     text-align: center;
+}
+
+.service_title>p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.service_text {
+    width: 45%;
+    text-align: left;
+}
+
+.service_text2 {
+    width: 45%;
+    text-align: right;
 }
 
 .arrow {
@@ -343,11 +372,12 @@ path {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 110px;
 }
 
 .first_offer>img {
-    width: 35%;
+    width: 60%;
 }
 
 .first_offer>.service_text>h3 {
@@ -364,30 +394,57 @@ path {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
-.second_offer>img {
-    width: 35%;
-}
-
-.second_offer>.service_text>h3 {
+.second_offer>.service_text2>h3 {
     font-size: 25px;
 }
 
-.second_offer>.service_text>p {
+.second_offer>.service_text2>p {
     font-family: 'Poppins', sans-serif;
     color: #445964;
     font-size: 20px;
 }
 
 .bar {
-    width: 200px;
+    width: 400px;
     height: 2px;
     border: none;
     margin: 20px auto;
     background-color: #445964;
     animation: apparition 1s;
+}
+
+.swiper {
+    width: 45%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Contact  */
@@ -700,11 +757,11 @@ path {
 
 @keyframes apparition {
     0% {
-        opacity: 0;
+        transform: scale(0)
     }
 
     100% {
-        opacity: 1;
+        transform: scale(1);
     }
 }
 
