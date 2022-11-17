@@ -35,6 +35,14 @@
         margin-top: 60px;
     }
 
+    .service_text>p>i {
+        display: none;
+    }
+
+    .service_text2>p>i {
+        display: none;
+    }
+
     .block_panel {
         width: 90%;
     }
@@ -187,6 +195,18 @@
         font-size: 20px;
     }
 
+    .service_text {
+        width: 90%;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .service_text2 {
+        width: 90%;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
     .second_offer {
         flex-direction: column;
     }
@@ -198,6 +218,10 @@
 
     .second_offer>.service_text>h3 {
         font-size: 20px;
+    }
+
+    .swiper {
+        width: 90%;
     }
 
     .block_contact {
@@ -336,12 +360,16 @@
         font-size: 15px;
     }
 
-    .second_offer>.service_text>h3 {
+    .second_offer>.service_text2>h3 {
         font-size: 20px;
     }
 
-    .second_offer>.service_text>p {
+    .second_offer>.service_text2>p {
         font-size: 15px;
+    }
+
+    .swiper {
+        width: 100%;
     }
 
     .block_panel {
