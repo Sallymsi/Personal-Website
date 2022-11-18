@@ -420,4 +420,8 @@
     .block_contact>h2 {
         font-size: 28px;
     }
+
+    .bar {
+        width: 200px;
+    }
 }
